@@ -1,0 +1,15 @@
+[linters]
+disable-all = true
+enable = [
+    "errcheck",
+    "gofmt",
+    "goimports",
+    "gosimple",
+    "govet",
+    "ineffassign",
+    "staticcheck",
+    "unused",
+]
+
+[run]
+timeout = "5m"
