@@ -7,7 +7,10 @@ tool (
 	golang.org/x/tools/cmd/goimports
 )
 
-require github.com/rivo/tview v0.0.0-20241227133733-17b7edb88c57
+require (
+	github.com/gdamore/tcell/v2 v2.8.1
+	github.com/rivo/tview v0.0.0-20241227133733-17b7edb88c57
+)
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.3.0 // indirect
@@ -55,7 +58,6 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/fzipp/gocyclo v0.6.0 // indirect
 	github.com/gdamore/encoding v1.0.1 // indirect
-	github.com/gdamore/tcell/v2 v2.8.1 // indirect
 	github.com/ghostiam/protogetter v0.3.9 // indirect
 	github.com/go-critic/go-critic v0.12.0 // indirect
 	github.com/go-toolsmith/astcast v1.1.0 // indirect
